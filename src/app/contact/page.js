@@ -7,7 +7,7 @@ const contact = () => {
     <section  className='bg-[#150E28] h-[100%]'>
       <Navbar />
 
-      <div className='md:flex md:pl-[6rem] mt-[4.3rem]'>
+      <div className='md:flex md:pl-[6rem] mt-[4.3rem] pt-[1.3rem]'>
 
         <div className='md:w-[40%] md:block hidden'>
           <p className='text-[#D434FE] text-[2rem] font-semibold'>Get in touch</p>
