@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isOpen , setIsOpen] = useState(false)
 
   return (
-    <nav className='h-[4.3125rem] bg-[#150E28] flex justify-between  '>  
+    <nav className='h-[4.3125rem] bg-[#150E28] flex justify-between top-0 fixed w-[100%] '>  
         
         <div className='ml-[3.5rem] pt-[1.5rem] '>
             <Image src={getlinkedLOGO} alt='getlinked logo' />
