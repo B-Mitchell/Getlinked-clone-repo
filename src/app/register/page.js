@@ -59,7 +59,7 @@ const register = () => {
             </div>
 
             {/* form */}
-            <form className='md:bg-[#FFFFFF08] md:w-[50%] w-[100%] pl-[4rem] pb-[2rem]' onSubmit={handleSubmit}>
+            <form className='md:bg-[#FFFFFF08] md:w-[50%] w-[100%] md:pl-[4rem] pl-[3.5rem] pb-[2rem]' onSubmit={handleSubmit}>
                 <p className='text-[#D434FE] text-[2rem] font-semibold md:mt-[3.4rem] md:block hidden'>Register</p>
                 <p className='flex text-[0.875rem] font-normal mt-[1.4rem]' >Be a part of this movement!<span className='flex'>
                     <Image src={human1} alt='human' /> 
