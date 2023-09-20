@@ -3,6 +3,7 @@ import Image from 'next/image'
 import judgingCriteriaImg from '../../../public/icons/criteria_img.png'
 import star from "../../../public/icons/sata gra.png"
 import star_white from "../../../public/icons/star_white.png"
+import Link from 'next/link'
 
 const Judging_criteria = () => {
   return (
@@ -45,7 +46,7 @@ const Judging_criteria = () => {
             <span className='text-[#D434FE] font-extrabold'>Adherence to Hackathon Rules:</span> Judges will Ensure that the team adhered to the rules and guidelines of the hackathon, including deadlines, use of specific technologies or APIs, and any other competition-specific requirements.
             </p>
 
-            <button className='h-[2.425rem] w-[10.75rem] mt-[.8rem] rounded-[0.25rem] bg-gradient-to-r from-[#FF26B9] via-[#D434FE] to-[#903AFF] text-[1rem] hover:scale-[109%] transition m-auto md:mt-[2rem]' >Register</button>
+            <button className='h-[2.425rem] w-[10.75rem] mt-[.8rem] rounded-[0.25rem] bg-gradient-to-r from-[#FF26B9] via-[#D434FE] to-[#903AFF] text-[1rem] hover:scale-[109%] transition m-auto md:mt-[2rem]' ><Link href="/register">Register</Link></button>
         </div>
 
 

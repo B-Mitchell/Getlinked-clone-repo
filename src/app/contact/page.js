@@ -59,7 +59,7 @@ const contact = () => {
           <p className='text-[0.75rem] text-[#FFF] ml-[14.5%] pt-[1.5rem] font-normal md:hidden block'>Email us below to any question related <br />to our event</p>
 
           <input placeholder='First Name' className='w-[70%] m-auto block bg-[#FFFFFF08] p-[.8rem] mt-[2.12rem]'/>
-          <input placeholder='Topic' className='w-[70%] mt-[2.63rem] m-auto block bg-[#FFFFFF08] p-[.8rem] md:hidden block'/>
+          <input placeholder='Topic' className='w-[70%] mt-[2.63rem] m-auto block bg-[#FFFFFF08] p-[.8rem] md:hidden '/>
           <input placeholder='Mail' className='w-[70%] mt-[2.63rem] m-auto block bg-[#FFFFFF08] p-[.8rem]'/>
           <textarea placeholder='Message' className='max-h-[10rem] min-h-[7.4375rem] min-w-[70%] mt-[2.44rem] m-auto block bg-[#FFFFFF08] p-[.8rem]'/>
 
