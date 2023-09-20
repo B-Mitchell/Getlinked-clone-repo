@@ -11,7 +11,7 @@ const RulesAndGuidelines = () => {
             <p className='md:text-[2rem] text-[1.95rem] font-bold'> Rules and<br />
                 <span className='text-[#D434FE] font-extrabold'>Guidelines</span>
             </p>
-            <p className='pt-[1rem] md:text-[0.875rem] text-[0.9925rem] md:leading-[1.71875rem] leading-[1.71875rem] md:w-[100%] w-[60%] md:m-[0] m-auto'>
+            <p className='pt-[1rem] md:text-[0.875rem] text-[0.9925rem] md:leading-[1.71875rem] leading-[1.71875rem] md:w-[100%] w-[80%] md:m-[0] m-auto'>
             Our tech hackathon is a melting pot of 
             visionaries, and its purpose is as clear as day:
             to shape the future. Whether you're a coding

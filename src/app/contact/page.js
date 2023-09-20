@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Link from 'next/link'
 
 const contact = () => {
   return (
@@ -39,6 +40,19 @@ const contact = () => {
 
         {/* Contact Us */}
         <form className='md:w-[50%] w-[100%] m-auto md:bg-[#FFFFFF08] bg-[#150E28] h-auto pb-[1rem]'>
+          <Link href="/" >
+            <svg className='md:hidden block ml-[14.5%] cursor-pointer' xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+  <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_177_298)"/>
+  <path d="M12.2666 9.20001L9.19995 12.2667L12.2666 14.5667" stroke="white"/>
+  <defs>
+    <linearGradient id="paint0_linear_177_298" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#903AFF"/>
+      <stop offset="1" stop-color="#FF26B9"/>
+    </linearGradient>
+  </defs>
+            </svg>
+          </Link>
+        
           <p className='text-[#D434FE] text-[1.25rem] font-semibold ml-[14.5%] mt-[2rem]'>Questions or need assistance?</p>
           <p className='text-[#D434FE] text-[1.25rem] font-semibold ml-[14.5%] mt-[.7rem]'>Let us know  about it!</p>
           {/* Mobile view */}

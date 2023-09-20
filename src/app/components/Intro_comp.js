@@ -15,7 +15,7 @@ const Intro_comp = () => {
             <p className='md:text-[2rem] text-[1.95rem] font-bold'> Introduction to getlinked<br />
                 <span className='text-[#D434FE] font-extrabold'> tech Hackathon 1.0</span>
             </p>
-            <p className='pt-[1rem] md:text-[0.875rem] text-[0.9925rem] md:leading-[1.71875rem] leading-[1.71875rem] md:w-[70%] w-[60%] md:m-[0] m-auto'>
+            <p className='pt-[1rem] md:text-[0.875rem] text-[0.9925rem] md:leading-[1.71875rem] leading-[1.71875rem] md:w-[70%] w-[80%] md:m-[0] m-auto'>
             Our tech hackathon is a melting pot of visionaries, and its purpose is as
             clear as day: to shape the future. Whether you're a coding genius, a 
             design maverick, or a concept wizard, you'll have the chance to transform 
