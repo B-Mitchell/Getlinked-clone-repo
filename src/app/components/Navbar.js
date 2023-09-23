@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className='md:flex md:justify-between sm:pt-[.5rem]  bg-[#150E28] '>
 
             <ul className='md:flex md:mr-[3rem] text-[1.125rem] hidden'>
-                <li className='text-[#fff] p-[.5rem] pt-[1.3rem]'> <a href='#'>Timeline</a> </li>
+                <li className='text-[#fff] p-[.5rem] pt-[1.3rem]'> <Link href='/'>Timeline</Link> </li>
                 <li className='text-[#fff] p-[.5rem] pt-[1.3rem]'> <a href='#'>Overview</a></li>
                 <li className='text-[#fff] p-[.5rem] pt-[1.3rem]'> <a href='#'>FAQs</a> </li>
                 <li className='text-[#fff] p-[.5rem] pt-[1.3rem]' > <Link href='/contact'>Contact</Link></li>
