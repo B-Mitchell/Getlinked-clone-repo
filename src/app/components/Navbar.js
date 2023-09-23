@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className='fixed md:hidden w-[100%] h-[25rem] bg-[#150E28]  pl-[3rem] '>
           <Image className='right-0 fixed mr-[3.5rem] mt-[1.7rem] cursor-pointer hover:scale-[109%] transition' src={navCancel} alt='cancel navbar' onClick={() => setIsOpen(false)}/>
           <ul className='mt-[5rem]'>
-            <li className='mt-[1rem] hover:scale-[103%] transition'><a href='#'>Timeline</a></li>
+            <li className='mt-[1rem] hover:scale-[103%] transition'><Link href='/'>Timeline</Link></li>
             <li  className='mt-[1rem] hover:scale-[103%] transition'><a href='#'>Overview</a></li>
             <li className='mt-[1rem] hover:scale-[103%] transition'><a href='#'>FAQs</a></li>
             <li className='mt-[1rem] hover:scale-[103%] transition'> <Link href='/contact'>Contact</Link></li>
