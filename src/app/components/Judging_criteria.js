@@ -7,11 +7,12 @@ import Link from 'next/link'
 
 const Judging_criteria = () => {
   return (
-    <section className='block md:flex justify-between md:h-auto] bg-[#140D27] m-auto text-center md:pl-[1.9rem] md:pt-0 pt-[3rem] border-b-2 pb-[3rem] relative'>
+    <section className='block md:flex justify-between md:h-auto] bg-[#140D27] m-auto text-center md:pl-[1.9rem] md:pt-0 pt-[3rem]  border-t-[0.0625rem] border-[#FFFFFF2E] border-b-[0.0625rem] pb-[3rem] relative'>
         {/* stars */}
-        <Image src={star} alt='star image' className='absolute top-[1rem] left-[12rem] md:top-[4rem] md:left-[12rem]'/>
+        <Image src={star} alt='star image' className='animate-spin absolute top-[1rem] left-[12rem] md:top-[4rem] md:left-[12rem]'/>
+        <Image src={star} alt='star image' className='animate-spin absolute top-[1rem] left-[22rem] md:top-[4rem] md:left-[12rem]'/>
 
-        <Image src={star_white} alt='star image' className='absolute top-[10rem] left-[16rem] md:top-[19rem] md:left-[21rem]'/>
+        <Image src={star_white} alt='star image' className=' animate-spin absolute top-[10rem] left-[16rem] md:top-[19rem] md:left-[21rem]'/>
 
 
         <div className='md:w-[50%] md:h-[100%] w-[70%] h-[70%] m-auto md:p-[3rem] md:pl-[3rem]'>

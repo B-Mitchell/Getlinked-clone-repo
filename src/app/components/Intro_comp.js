@@ -5,10 +5,10 @@ import intro_comp from "../../../public/icons/intro_comp_img.png"
 
 const Intro_comp = () => {
   return (
-    <section className='block md:flex justify-between md:h-[30rem] bg-[#140D27] m-auto text-center md:pl-[1.9rem] md:pt-0 pt-[1rem] border-b-2 pb-[3rem]'>
+    <section className='block md:flex justify-between md:h-[30rem] bg-[#140D27] m-auto text-center md:pl-[1.9rem] md:pt-0 pt-[1rem] pb-[3rem]  border-t-[0.0625rem] border-[#FFFFFF2E] border-b-[0.0625rem]'>
 
         <div className='md:w-[50%] md:h-[100%] w-[70%] h-[70%] m-auto md:p-[3rem] md:pl-[3rem]'>
-            <Image src={intro_comp} alt='intro image' className='md:h-[100%] md:w-[90%] h-[80%] w-[80%] m-auto md:mb-0 mb-[1.4rem]'/>
+            <Image src={intro_comp} alt='intro image' className='relative md:h-[100%] md:w-[90%] h-[80%] w-[80%] m-auto md:mb-0 mb-[1.4rem]'/>
         </div>
 
         <div className='md:w-[50%] w-[100%] md:text-left text-center md:pt-[10%] bg-[#140D27] '>

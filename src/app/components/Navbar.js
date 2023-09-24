@@ -19,10 +19,10 @@ const Navbar = () => {
         <div className='md:flex md:justify-between sm:pt-[.5rem]  bg-[#150E28] '>
 
             <ul className='md:flex md:mr-[3rem] text-[1.125rem] hidden'>
-                <li className='text-[#fff] p-[.5rem] pt-[1.3rem]'> <Link href='/'>Timeline</Link> </li>
-                <li className='text-[#fff] p-[.5rem] pt-[1.3rem]'> <a href='#'>Overview</a></li>
-                <li className='text-[#fff] p-[.5rem] pt-[1.3rem]'> <a href='#'>FAQs</a> </li>
-                <li className='text-[#fff] p-[.5rem] pt-[1.3rem]' > <Link href='/contact'>Contact</Link></li>
+                <li className='text-[#fff] p-[.5rem] pt-[1.3rem] hover:bg-gradient-to-r from-[#FF26B9] via-[#D434FE] to-[#903AFF] bg-clip-text text-opacity-60'> <Link href='/'>Timeline</Link> </li>
+                <li className='text-[#fff] p-[.5rem] pt-[1.3rem] hover:bg-gradient-to-r from-[#FF26B9] via-[#D434FE] to-[#903AFF] bg-clip-text text-opacity-60'> <a href='#'>Overview</a></li>
+                <li className='text-[#fff] p-[.5rem] pt-[1.3rem] hover:bg-gradient-to-r from-[#FF26B9] via-[#D434FE] to-[#903AFF] bg-clip-text text-opacity-60'> <a href='#'>FAQs</a> </li>
+                <li className='text-[#fff] p-[.5rem] pt-[1.3rem] hover:bg-gradient-to-r from-[#FF26B9] via-[#D434FE] to-[#903AFF] bg-clip-text text-opacity-60' > <Link href='/contact'>Contact</Link></li>
             </ul>
 
             <button className='h-[3.225rem] w-[10.75rem] mr-[3.5rem] rounded-[0.25rem] bg-gradient-to-r from-[#FF26B9] via-[#D434FE] to-[#903AFF] text-[1rem] hover:scale-[109%] transition md:block hidden' ><Link href="/register">Register</Link></button>
@@ -38,13 +38,14 @@ const Navbar = () => {
           <div className='fixed md:hidden w-[100%] h-[25rem] bg-[#150E28]  pl-[3rem] '>
           <Image className='right-0 fixed mr-[3.5rem] mt-[1.7rem] cursor-pointer hover:scale-[109%] transition' src={navCancel} alt='cancel navbar' onClick={() => setIsOpen(false)}/>
           <ul className='mt-[5rem]'>
-            <li className='mt-[1rem] hover:scale-[103%] transition'><Link href='/'>Timeline</Link></li>
+            <li className='mt-[1rem] hover:scale-[103%] transition '><Link href='/'>Timeline</Link></li>
             <li  className='mt-[1rem] hover:scale-[103%] transition'><a href='#'>Overview</a></li>
             <li className='mt-[1rem] hover:scale-[103%] transition'><a href='#'>FAQs</a></li>
             <li className='mt-[1rem] hover:scale-[103%] transition'> <Link href='/contact'>Contact</Link></li>
           </ul>
 
-          <button className='h-[3.225rem] w-[10.75rem] rounded-[0.25rem] bg-gradient-to-r from-[#FF26B9] via-[#D434FE] to-[#903AFF] text-[1rem] hover:scale-[109%] transition mt-[2.81rem]' ><Link href="/register">Register</Link></button>
+          <Link href="/register">
+          <button className='h-[3.225rem] w-[10.75rem] rounded-[0.25rem] bg-gradient-to-r from-[#FF26B9] via-[#D434FE] to-[#903AFF] text-[1rem] hover:scale-[109%] transition mt-[2.81rem]' >Register</button></Link>
         </div>
         : 
         console.log("Navbar active")

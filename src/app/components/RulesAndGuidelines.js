@@ -4,7 +4,7 @@ import RGimage from "../../../public/icons/R_AND_G_img.png"
 
 const RulesAndGuidelines = () => {
   return (
-    <section className='block md:flex md:justify-between md:h-[30rem] bg-[#140D27] m-auto text-center md:pl-[2rem] md:pt-0 pt-[1rem] border-b-2 '>
+    <section className='block md:flex md:justify-between md:h-[30rem] bg-[#140D27] m-auto text-center md:pl-[2rem] md:pt-0 pt-[1rem]  border-t-[0.0625rem] border-[#FFFFFF2E] border-b-[0.0625rem] '>
 
 
         <div className='md:order-1 order-2 md:w-[50%] w-[100%] md:text-left text-center md:pt-[10%] bg-[#140D27] md:pl-[4rem]'>
@@ -25,7 +25,7 @@ const RulesAndGuidelines = () => {
         </div>
 
         <div className='md:order-2 order-1 md:w-[50%] md:h-[100%] w-[70%] h-[70%] m-auto md:p-[3rem] md:pl-[3rem]'>
-            <Image src={RGimage} alt='intro image' className='md:h-[100%] md:w-[90%] h-[80%] w-[80%] m-auto'/>
+            <Image src={RGimage} alt='intro image' className='md:h-[100%] md:w-[90%] h-[80%] w-[80%] m-auto relative'/>
         </div>
 
     </section>

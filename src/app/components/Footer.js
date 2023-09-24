@@ -1,9 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
+import star from "../../../public/icons/sata gra.png"
 
 const Footer = () => {
   return (
-    <footer className='w-[100%] bg-[#100B20] pt-[2rem]'>
+    <footer className='w-[100%] bg-[#100B20] pt-[2rem] relative'>
+      <Image src={star} alt='star image' className='animate-spin absolute top-[1rem] left-[12rem] md:top-[4rem] md:left-[12rem]'/>
       <section className='md:w-[80%] w-[80%] m-auto md:flex block md:justify-between md:m-auto'>
         
         <div className='md:w-[40%] md:pr-1'>

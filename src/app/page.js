@@ -12,7 +12,7 @@ import Judging_criteria from "./components/Judging_criteria"
 export default function Home() {
   
   return (
-    <main className="font-montserrat scroll-smooth relative">
+    <main className="font-montserrat scroll-smooth relative text-[#FFF]">
       {/* NAVBAR */}
       <Navbar />
 
