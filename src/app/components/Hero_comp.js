@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 // import purple_flare from "../../../public/icons/Purple-Lens-Flare-PNG.png"
 import heroImgMan from "../../../public/icons/heroImgman.png"
-import heroImgUni from "../../../public/icons/heroImguni.png"
+import heroImgH  from "../../../public/icons/heroimguni.png"
 import chain from "../../../public/icons/chain.png"
 import fire from "../../../public/icons/fire.png"
 import starr from "../../../public/icons/starr.png"
@@ -43,7 +43,7 @@ const Hero_comp = () => {
         {/* image comp */}
         <div className='md:w-[50%] relative'>
           <Image src={heroImgMan} alt='hero Image' />
-          <Image src={heroImgUni} alt='hero Image' className='absolute top-0 left-0 h-[99%] animate-pulse'/>
+          <Image src={heroImgH} alt='hero Image' className='absolute top-0 left-0 h-[99%] animate-pulse'/>
         </div>
         
 
