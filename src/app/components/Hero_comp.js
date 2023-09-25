@@ -23,7 +23,7 @@ const Hero_comp = () => {
       </div>
 
       <div className='md:flex block'>
-        <div className='md:w-[50%] pl-[2rem] md:text-left text-center'>
+        <div className='md:w-[50%] md:pl-[2rem] md:text-left text-center'>
             <p className='text-[4rem] font-bold leading-none block mt-2'>get linked Tech <br /> hackathon <span className='text-[#D434FE]'>1.0
             <Image src={chain} alt='chain' className='inline-block'/>
             <Image src={fire} alt='fire' className='inline-block'/>
